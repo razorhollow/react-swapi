@@ -15,9 +15,9 @@
 
 .App-header {
   background-color: #282c34;
-  min-height: 100vh;
+  min-height: 5vh;
   display: flex;
-  flex-direction: column;
+  flex-direction: ros;
   align-items: center;
   justify-content: center;
   font-size: calc(10px + 2vmin);
@@ -35,4 +35,46 @@
   to {
     transform: rotate(360deg);
   }
+}
+
+.starships-container {
+  display: flex;
+  flex-direction: row;
+  align-items: center;
+  flex-wrap: wrap;
+}
+
+.starship-card {
+  width: 15%;
+  height: 60px;
+  padding: 30px 10px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  justify-content: center;
+  border-radius: 5px;
+  margin: 30px;
+  padding: 20px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  text-decoration: none;
+}
+
+.details-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 20%;
+}
+
+.details-card {
+  border-radius: 5px;
+  background-color: #2b2d42;
+  color: #edf2f4;
+  padding: 30px;
+  text-decoration: none;
+}
+
+.details-card > a {
+  color: #edf2f4; 
 }
