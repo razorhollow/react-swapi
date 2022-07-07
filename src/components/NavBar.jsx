@@ -1,7 +1,7 @@
 const NavBar = () => {
   return (
     <header className="App-header">
-      <h1>STAR WARS STAR SHIPS</h1>
+      <h1>STAR WARS STARSHIPS</h1>
     </header>
   )
 }
