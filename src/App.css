@@ -41,7 +41,10 @@
   display: flex;
   flex-direction: row;
   align-items: center;
+  align-items: center;
   flex-wrap: wrap;
+  margin-top: 2em;
+  margin-left: 10%;
 }
 
 .starship-card {
@@ -53,7 +56,7 @@
   align-items: center;
   justify-content: center;
   border-radius: 5px;
-  margin: 30px;
+  margin: 10px;
   padding: 20px;
   background-color: #2b2d42;
   color: #edf2f4;
